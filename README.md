@@ -47,5 +47,44 @@ To establish a coherent data model, we defined specific rules and relationships:
 ![277521040-23f6eaf1-d3a1-4364-8701-d49b5d12ef6e](https://github.com/MuhammadAlmursii/ITI_Examination_System/assets/140438093/b4886ccf-8d17-431d-b8b7-4c24e62d2620)
 
 
+### How to Explore the Mapping
+![277521639-2b6de7dc-deaa-4668-b249-5804b32dc9e7](https://github.com/MuhammadAlmursii/ITI_Examination_System/assets/140438093/a6dc9787-226f-45a9-97c7-b2c5ebb5dd00)
+
+## ETL Process with SSIS
+
+The Comprehensive Examination System relies on a robust ETL (Extract, Transform, Load) process facilitated by SSIS (SQL Server Integration Services). This process ensures the efficient movement and transformation of data, enhancing data quality and accessibility for analysis and reporting.
+
+### ETL Workflow
+
+1. **Data Extraction:** The ETL process begins with data extraction. We extract data from various sources, including databases containing information about students, instructors, courses, exams, and questions. SSIS supports a wide range of data sources, allowing us to collect data efficiently.
+
+2. **Data Transformation:** After data extraction, we perform data transformation using SSIS. This includes data cleansing, data enrichment, and data restructuring. SSIS offers a powerful and user-friendly interface to define data transformations, such as converting data types, merging data from multiple sources, and handling data inconsistencies.
+
+3. **Data Loading:** Once data is transformed, it's loaded into the appropriate destination tables within our database. SSIS provides tools to load data into SQL Server tables seamlessly. This step ensures that the data is structured according to our data model, maintaining data consistency.
+
+4. **Validation and Quality Assurance:** We incorporate data validation and quality assurance checks within SSIS to verify the accuracy and integrity of data during the ETL process. This ensures that only high-quality data enters the system.
+
+5. **Scheduled Execution:** We have set up scheduled SSIS packages to run at specific intervals, ensuring that the ETL process is executed regularly. This periodic execution keeps our data up to date and reflects the most recent changes in student enrollments, instructor assignments, and course updates.
+
+6. **Monitoring and Logging:** SSIS provides comprehensive monitoring and logging capabilities, allowing us to track the progress and performance of the ETL process. Any issues or errors are logged and can be addressed promptly.
+
+7. **Error Handling:** In the event of data inconsistencies or errors during the ETL process, SSIS provides mechanisms for error handling. These include notifications, retries, and the ability to trigger alerts.
+
+### ETL Benefits
+
+The use of SSIS for ETL in our project offers several advantages:
+
+- **Efficiency:** SSIS streamlines the ETL process, optimizing data transfer and transformation.
+
+- **Data Accuracy:** Through validation and quality checks, we ensure that the data is accurate and reliable.
+
+- **Automation:** Scheduled SSIS packages automate the ETL process, reducing manual intervention.
+
+- **Scalability:** SSIS can handle large volumes of data, making it scalable for our growing examination system.
+
+
+![image](https://github.com/MuhammadAlmursii/ITI_Examination_System/assets/140438093/ad771cb3-e8fe-4abf-8880-afdd24a614cf)
+
+![image](https://github.com/MuhammadAlmursii/ITI_Examination_System/assets/140438093/cefa03f9-7ee1-41ca-8316-d0c488e97dd8)
 
 
