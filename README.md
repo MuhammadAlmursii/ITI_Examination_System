@@ -52,15 +52,7 @@ To establish a coherent data model, we defined specific rules and relationships:
 
 ## ETL Process with SSIS
 
-The Comprehensive Examination System relies on a robust ETL (Extract, Transform, Load) process facilitated by SSIS (SQL Server Integration Services). This process ensures the efficient movement and transformation of data, enhancing data quality and accessibility for analysis and reporting.
-
-## ETL Process with SSIS
-
-Our Comprehensive Examination System relies on SSIS (SQL Server Integration Services) to efficiently Extract, Transform, and Load data. This process ensures data accuracy, quality, and accessibility for analysis and reporting.
-
-## ETL Process with SSIS
-
-**Project Overview:** Our Comprehensive Examination System employs SSIS (SQL Server Integration Services) for an efficient ETL (Extract, Transform, Load) process, ensuring data accuracy, quality, and accessibility for analysis and reporting.
+Our Comprehensive Examination System employs SSIS (SQL Server Integration Services) for an efficient ETL (Extract, Transform, Load) process, ensuring data accuracy, quality, and accessibility for analysis and reporting.
 
 ### ETL Workflow
 
