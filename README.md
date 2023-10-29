@@ -44,3 +44,8 @@ To establish a coherent data model, we defined specific rules and relationships:
 - **Course Composition:** Courses encompass a wide array of topics, exams, and questions, making them the cornerstone of our data model.
 
 
+![277521040-23f6eaf1-d3a1-4364-8701-d49b5d12ef6e](https://github.com/MuhammadAlmursii/ITI_Examination_System/assets/140438093/b4886ccf-8d17-431d-b8b7-4c24e62d2620)
+
+
+
+
