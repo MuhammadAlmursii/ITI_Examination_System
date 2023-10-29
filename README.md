@@ -4,7 +4,7 @@ This GitHub repository is dedicated to the ETL (Extract, Transform, Load) proces
 # **Tools:**
 
 - ETL (Extract, Transform, Load) Processes
--Data Modeling  
+- Data Modeling  
 - ERD (Entity-Relationship Diagram)
 - SQL Server
 - SSIS (SQL Server Integration Services)
